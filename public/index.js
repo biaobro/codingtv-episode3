@@ -4,7 +4,7 @@
  * @Author: BiaoBro
  * @Date: 2022-03-26 16:38:25
  * @LastEditors: BiaoBro
- * @LastEditTime: 2022-03-26 18:21:37
+ * @LastEditTime: 2022-03-26 19:02:45
  */
 
 class Timer{
@@ -109,7 +109,7 @@ class Timer{
 // ]
 
 // fetch("timer")
-fetch("/.netlify/functions/timer")
+fetch("/netlify/functions/timer")
     .then(resp => resp.json())
     .then(data => {
         data.map(item =>{
