@@ -4,7 +4,7 @@
  * @Author: BiaoBro
  * @Date: 2022-03-26 18:16:06
  * @LastEditors: BiaoBro
- * @LastEditTime: 2022-03-26 18:18:25
+ * @LastEditTime: 2022-03-26 19:11:22
  */
 
 const { Client } = require("@notionhq/client")
@@ -34,6 +34,6 @@ exports.handler = async function(event, context) {
 
     return {
         statusCode:200,
-        body:JSON.stringify(data),
+        body:JSON.stringify(data)
     };
 }
